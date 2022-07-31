@@ -6,7 +6,7 @@ const Index = () => {
   const [username, setUsername] = useState('');
 
   return (
-    <div>
+    <>
       <label>
         USERNAME:
         <input
@@ -19,7 +19,7 @@ const Index = () => {
       <Link href={`/users/${username}`}>
         <a>탐방 ㄱㄱ</a>
       </Link>
-    </div>
+    </>
   );
 };
 
